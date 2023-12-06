@@ -1,6 +1,6 @@
 import { fetchBaseQuery } from '@reduxjs/toolkit/query'
 import authApi from './authApi';
-import axios from 'axios';
+
 
 //providing baseUrl and token for every request
 const baseQuery = fetchBaseQuery({

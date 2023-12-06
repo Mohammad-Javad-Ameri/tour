@@ -4,8 +4,8 @@
 // import Setting from "./pages/settings/setting";
 // import MainProfile from "./pages/profile/main";
 // import MainTour from "./pages/tour/main";
-import Signup from "./pages/signup/signup";
-import Login from "./pages/login/login";
+import Signup from "./pages/signup/Signup.jsx";
+import Login from "./pages/login/Login.jsx";
 // import StartingPage from "./pages/startingPage/startingPage";
 // import ChangeProfile from "./pages/changeProfile/changeProfile";
 // import FollowersPage from "./pages/followersPage/followersPage";

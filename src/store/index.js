@@ -1,7 +1,7 @@
 import { configureStore } from "@reduxjs/toolkit";
 import userSlice from "./userSlice";
-import authApi from "./services/authApi";
-import userApi from "./services/userApi";
+import authApi from "../services/authApi";
+import userApi from "../services/authApi";
 
 //creating the whole store
 //and configuring slices and APIS
