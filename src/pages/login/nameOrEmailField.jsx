@@ -4,12 +4,12 @@ import { BsPerson } from "react-icons/bs";
 const NameOrEmailField = ({ register, errors }) => {
   return (
     <>
-      <div className=" space-y-1 py-1">
-        <label htmlFor="usename" className="text-[0.82rem]">
+      <div className=" space-y-1 py-1 text-right">
+        <label htmlFor="usename" className="text-[0.82rem] mx-2">
           نام کاربری یا ایمیل
         </label>
         <div
-          className={`relative rounded-2xl text-sm pr-3 py-5 overflow-hidden ring-1  ring-opacity-30
+          className={`relative flex justify-end rounded-2xl text-sm pr-3 py-5 overflow-hidden ring-1  ring-opacity-30
           ${errors.emailOrUsername ? "ring-red-500" : "ring-white"}`}
         >
           <input

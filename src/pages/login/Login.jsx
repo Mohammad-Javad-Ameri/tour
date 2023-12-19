@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import LoginLayout from "./loginLayout";
-// import OtherWaysButton from "../signup/otherWaysButton";
-// import SignUpSubmit from "../signup/signUpSubmit";
+import OtherWaysButton from "../signup/otherWaysButton";
+import SignUpSubmit from "../signup/signUpSubmit";
 import NameOrEmailField from "./nameOrEmailField";
 import LoginPasswordField from "./loginPasswordField";
 // import OtherWaysLink from "../changeProfile/common/otherWaysLink";
@@ -76,10 +76,10 @@ const Login = () => {
                 موفق شدید
               </div>
             )}
-            {/* <SignUpSubmit loading={isLoading}>ورود</SignUpSubmit>
+            <SignUpSubmit loading={isLoading}>ورود</SignUpSubmit>
 
             <OtherWaysButton>راه های دیگر ورود</OtherWaysButton>
-            <OtherWaysLink text={"ورود با شماره "} toPath={"#"} /> */}
+            {/* <OtherWaysLink text={"ورود با شماره "} toPath={"#"} /> */}
           </form>
         </div>
       </LoginLayout>
